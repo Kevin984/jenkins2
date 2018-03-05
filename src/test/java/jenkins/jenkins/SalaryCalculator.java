@@ -1,7 +1,7 @@
 package jenkins.jenkins;
 
 public class SalaryCalculator {
-	private String doNothing;
+	private String doNothing; //test??
 private double salary;
 public double getSalary() {
 return salary;
