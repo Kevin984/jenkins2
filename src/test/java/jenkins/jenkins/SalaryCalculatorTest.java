@@ -17,7 +17,7 @@ assertThrows(IllegalArgumentException.class, () -> salaryCalculator.setSalary(-1
 void testSalaryCalculatorWithValidSalary() {
 double salary = 1200;
 salaryCalculator.setSalary(1200);
-double expectedInsuranceMoney = salary * 0.14;
+double expectedInsuranceMoney = salary * 0.15;
 assertEquals(expectedInsuranceMoney, salaryCalculator.getInsuranceMoney());
 double expectedBonusMoney = salary / 11;
 assertEquals(expectedBonusMoney, salaryCalculator.getSalaryBonus());
